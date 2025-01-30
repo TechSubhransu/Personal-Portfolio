@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;700&family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <span class="highlight">S</span class="text-blue-500">ubhransu<span class="dot">.</span>
+                </div>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Python Developer</p>
+                <h1>Hi, I'm <span>Subhransu</span><br> Sekhar Parida from <br> Odisha.</h1>
+            </div>
+        </div>
+    </div>
+                    <!------------ About -------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Picsart_23-02-13_22-25-31-595-removebg-preview (1).png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore blanditiis eum itaque consequuntur dolores est molestias architecto nemo cum impedit! Molestias nemo mollitia qui tenetur dolor voluptas cupiditate maiores. Iusto voluptatibus odit est deleniti esse!</p>
+                    <div class="tab-titles">
+                        <div class="tab-links active-links" onclick="opentab('skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>PYTHON</span><br>Data Science & Machine Learning</li>
+                            <li><span>Web Developement</span><br>Web app Developement</li>
+                            <li><span>App Developement</span><br>Building Android/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024: July-TillNow</span><br>Python With FullStack Learning at QSpider Institute</li>
+                            <li><span>2024: May-June</span><br>Internship at CTTC Institute</li>
+                            <li><span>2023 - 2024</span><br>Team Lead in Smart India Hackathon</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - 2026</span><br>B.TECH from GIET,GHANGAPATNA </li>
+                            <li><span>2020 - 2022</span><br>Intermediate from RHS, Nimapara</li>
+                            <li><span>2009 - 2020</span><br>Preschool, Primary Education, Middle School,  High School from SSVM, Astarang</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!---------- Services --------- -->
+    <div id="services">
+        <div class="container">
+            <div class="sub-titles">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Data Science & Machine Learning</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum enim laboriosam magni ea rem   fugit et nulla temporibus quia vel!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum enim laboriosam magni ea rem   fugit et nulla temporibus quia vel!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum enim laboriosam magni ea rem   fugit et nulla temporibus quia vel!</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                        <!----------- Portfolio ------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you tot the talented people arround the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you tot the talented people arround the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you tot the talented people arround the world.
+                            Download it from play store.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See More</a>
+        </div>
+    </div>
+
+                    <!----------- Contact ------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> munuparida550@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> 8093552308</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/1BVMAxqmbP/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/TechSubhransu"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.instagram.com/_subhransu._.27/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/subhransu-sekhar-parida-a827422b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./images/MUNU CV Resume2.pdf" class="btn btn2" download="">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Meassage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Subhransu. made with <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+        </div>
+    </div>               
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-links")
+            document.getElementById(tabname).classList.add("active-tab")    
+        }
+
+    </script>
+</body>
+</html>
